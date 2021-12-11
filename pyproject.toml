@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "watchmen-snowflake"
+version = "0.1.0"
+description = ""
+authors = ["luke0623 <luke0623@outlook.com>"]
+
+
+[tool.poetry.dependencies]
+python = "^3.9.2"
+fastapi = "^0.63.0"
+uvicorn = "^0.13.4"
+starlette-prometheus = "^0.8.0"
+python-dotenv = "^0.15.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
