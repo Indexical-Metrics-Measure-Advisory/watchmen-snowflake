@@ -3,6 +3,8 @@ FROM python:3.9.6-slim-buster
 WORKDIR /app
 ADD . .
 RUN pip install poetry
+RUN pip install starlette-prometheus
+RUN pip install python-dotenv
 RUN poetry config virtualenvs.create false
 RUN poetry install
 

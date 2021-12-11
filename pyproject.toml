@@ -9,8 +9,8 @@ authors = ["luke0623 <luke0623@outlook.com>"]
 python = "^3.9.2"
 fastapi = "^0.63.0"
 uvicorn = "^0.13.4"
-starlette-prometheus = "^0.8.0"
-python-dotenv = "^0.15.0"
+#starlette-prometheus = "^0.8.0"
+#python-dotenv = "^0.15.0"
 
 [tool.poetry.dev-dependencies]
 
